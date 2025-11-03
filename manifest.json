@@ -1,0 +1,65 @@
+{
+  "name": "Minecraft for Free - Play in Browser",
+  "short_name": "Minecraft Free",
+  "description": "Play Minecraft directly in your browser for free. No downloads required. Choose from multiple versions including 1.12.2, 1.8.8, Beta, and Alpha releases.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00d4aa",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/sword_illustration.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/sword_illustration.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/sword_illustration.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/game.png",
+      "sizes": "800x600",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Now",
+      "short_name": "Play",
+      "description": "Start playing Minecraft instantly",
+      "url": "/play",
+      "icons": [
+        {
+          "src": "/sword_illustration.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "short_name": "News", 
+      "description": "View latest game updates",
+      "url": "/news",
+      "icons": [
+        {
+          "src": "/sword_illustration.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
